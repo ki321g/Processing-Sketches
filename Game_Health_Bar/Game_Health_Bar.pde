@@ -25,7 +25,7 @@ void draw(){
     if(player_2 == 1 ){
       if(i <= healthPlayer_2) {
         fill(#4FAF44);
-      } else {
+      } else { 
         fill(#EF4423);
       }
       rect(10 +(i*20), 10, 20, 15);
