@@ -11,12 +11,12 @@ void draw(){
   
   for(int i = 1; i <=5; i++){
     if(i < 5) {
-      fill(127);
+      fill(#4FAF44);
     } else {
-      fill(255);
+      fill(#EF4423);
     }
-    rect(width-(150 - (i*20)), 10, 20, 20);
-    rect(10 +(i*20), 10, 20, 20);
+    rect(width-(150 - (i*20)), 10, 20, 15);
+    rect(10 +(i*20), 10, 20, 15);
   }
   
  //Testing this it works
